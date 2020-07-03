@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "442975332945",
+    "firebase_url": "https://videira-ce1cc.firebaseio.com",
+    "project_id": "videira-ce1cc",
+    "storage_bucket": "videira-ce1cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442975332945:android:b53baf1b804f76dccfa670",
+        "android_client_info": {
+          "package_name": "app.Videira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442975332945-1kslfkr7pbtg5qj3bmph6s8731todfok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.Videira",
+            "certificate_hash": "b6af9733858e01b7cc0cc0caa9bb585a2a2220c7"
+          }
+        },
+        {
+          "client_id": "442975332945-e5cj65anmmoe4i0mq19nd9vg1l59fmo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaT2qEFEoF_eW_cy8LYhMI9CiIrjylAwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442975332945-e5cj65anmmoe4i0mq19nd9vg1l59fmo1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

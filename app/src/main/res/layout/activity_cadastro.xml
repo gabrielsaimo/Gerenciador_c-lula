@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo_vid3"
+    android:orientation="vertical"
+    tools:context=".Activitys.Cadastro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="271dp"
+                android:layout_height="46dp"
+                android:drawableStart="@drawable/usar"
+                android:background="@drawable/texts"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:gravity="center|start"
+                android:hint=" Email:"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#FFFFFF"
+                app:layout_constraintVertical_bias="0.129" />
+
+
+            <EditText
+                android:id="@+id/editSenha"
+                android:layout_width="271dp"
+                android:drawableStart="@drawable/usar"
+                android:background="@drawable/texts"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:ems="10"
+                android:hint=" Senha:"
+                android:inputType="textPassword"
+                android:textColorHint="#FFFFFF"
+                app:layout_constraintVertical_bias="0.003" />
+
+            <EditText
+                android:id="@+id/ConfSenha"
+                android:layout_width="271dp"
+                android:layout_height="46dp"
+                android:drawableStart="@drawable/usar"
+                android:background="@drawable/texts"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:textColorHint="#FFFFFF"
+                android:hint="Confirmar Senha"
+                android:inputType="textPassword"
+                app:layout_constraintTop_toBottomOf="@+id/editSenha" />
+
+            <Button
+                android:id="@+id/btCadastrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:text="Cadastrar"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:backgroundTint="@color/colorPrimary"
+                android:visibility="visible"
+                app:layout_constraintVertical_bias="0.0" />
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-40dp"
+                app:layout_constraintVertical_bias="0.25" />
+
+            <Button
+                android:id="@+id/btnVoltar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/texts"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:text="Voltar" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
