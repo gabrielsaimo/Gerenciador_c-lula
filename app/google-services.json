@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "442975332945-3vjtfmjj491m898fqjlfferf92vejjts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.Videira",
+            "certificate_hash": "a55a7246fcf03d3cde970550d9c7b618cd7b8890"
+          }
+        },
+        {
           "client_id": "442975332945-1kslfkr7pbtg5qj3bmph6s8731todfok.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
